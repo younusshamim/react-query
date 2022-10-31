@@ -1,0 +1,14 @@
+[] we learn:
+1. Basic query
+2. Poll data
+3. RQ dev tools
+4. Create reusable query hooks
+5. Query by ID
+6. Parallel queries
+7. Dynamic queries
+8. Dependent queries
+9. Infinite & paginated queries
+10. Update data using mutations
+11. Invalidate queries
+12. Optimistic updates
+13. Axios Interceptor
