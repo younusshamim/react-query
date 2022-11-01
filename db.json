@@ -14,67 +14,94 @@
       "id": 3,
       "name": "Wonder Woman15",
       "alterEgo": "Princess Diana"
+    },
+    {
+      "name": "The Flash",
+      "alterEgo": "Barry Allen",
+      "id": 4
+    },
+    {
+      "name": "aaa",
+      "alterEgo": "bb",
+      "id": 5
+    },
+    {
+      "name": "bb",
+      "alterEgo": "cc",
+      "id": 6
+    },
+    {
+      "name": "dd",
+      "alterEgo": "cc",
+      "id": 7
+    },
+    {
+      "name": "aab",
+      "alterEgo": "dsfasdf",
+      "id": 8
     }
   ],
-
   "friends": [
     {
-      "id": 1, 
+      "id": 1,
       "name": "Chandler Bing"
     },
     {
-      "id": 2, 
+      "id": 2,
       "name": "Joey Tribbiani"
     },
     {
-      "id": 3, 
+      "id": 3,
       "name": "Rachel Green"
     }
   ],
-
   "users": [
     {
-      "id": "vishwas@example.com", 
+      "id": "vishwas@example.com",
       "channelId": "codevolution"
     }
   ],
   "channels": [
     {
-      "id": "codevolution", 
-      "courses": ["react", "vue", "angular"]
+      "id": "codevolution",
+      "courses": [
+        "react",
+        "vue",
+        "angular"
+      ]
     }
   ],
   "colors": [
     {
-      "id": 1, 
+      "id": 1,
       "label": "red"
     },
     {
-      "id": 2, 
+      "id": 2,
       "label": "blue"
     },
     {
-      "id": 3, 
+      "id": 3,
       "label": "green"
     },
     {
-      "id": 4, 
+      "id": 4,
       "label": "yellow"
     },
     {
-      "id": 5, 
+      "id": 5,
       "label": "black"
     },
     {
-      "id": 6, 
+      "id": 6,
       "label": "white"
     },
     {
-      "id": 7, 
+      "id": 7,
       "label": "orange"
     },
     {
-      "id": 8, 
+      "id": 8,
       "label": "purple"
     }
   ]
