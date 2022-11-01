@@ -5,10 +5,6 @@ const useSuperHeroesData = (onSuccess, onError) => {
   return useQuery("super-heroes", fetchSuperHeroes, {
     onSuccess,
     onError,
-    select: (data) => {
-      const superHeroNames = data.data.map((hero) => hero.name);
-      return superHeroNames;
-    }, // data transformation
   });
 };
 
@@ -23,3 +19,8 @@ export default useSuperHeroesData;
 // refetchInterval: 2000, // default value false // 2s por por refetch krte thkbe
 // refetchIntervalInBackground: true // default is false // tab focus na thkleO refetching chlbe
 // enabled: false, // component mount e data fetching na korte
+
+// select: (data) => {
+//   const superHeroNames = data.data.map((hero) => hero.name);
+//   return superHeroNames;
+// }, // data transformation

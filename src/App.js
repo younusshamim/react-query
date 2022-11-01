@@ -6,6 +6,12 @@ import SuperHeroesPage from "./components/SuperHeroes.page";
 import RQSuperHeroesPage from "./components/RQSuperHeroes.page";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
+import RQSuperHeroPage from "./components/RQSuperHero.page";
+import ParallelQueriesPage from "./components/ParallelQueries.page";
+import DynamicParallelPage from "./components/DynamicParallel.page";
+import DependentQueriesPage from "./components/DependentQueries.page";
+import PaginatedQueriesPage from "./components/PaginatedQueries.page";
+import InfiniteQueriesPage from "./components/InfiniteQueries.page";
 
 function App() {
   const queryClient = new QueryClient();
@@ -27,6 +33,30 @@ function App() {
         {
           path: "rq-super-heroes",
           element: <RQSuperHeroesPage />,
+        },
+        {
+          path: "rq-super-heroes/:heroId",
+          element: <RQSuperHeroPage />,
+        },
+        {
+          path: "rq-parallel",
+          element: <ParallelQueriesPage />,
+        },
+        {
+          path: "rq-dynamic-parallel",
+          element: <DynamicParallelPage heroIds={[1, 3]} />,
+        },
+        {
+          path: "rq-dependent-queries",
+          element: <DependentQueriesPage email="vishwas@example.com" />,
+        },
+        {
+          path: "rq-paginated-queries",
+          element: <PaginatedQueriesPage />,
+        },
+        {
+          path: "rq-infinite-queries",
+          element: <InfiniteQueriesPage email="vishwas@example.com" />,
         },
       ],
     },
